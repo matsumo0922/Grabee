@@ -1,0 +1,67 @@
+processors:
+  active: true
+  exclude:
+    - 'FunctionCountingProcessor'
+    - 'PropertyCountingProcessor'
+console-reports:
+  active: true
+config:
+  validation: true
+  warningsAsErrors: false
+  excludedPaths:
+    - '.*generated.*'
+    - '.*/build/.*'
+project:
+  processing:
+    active: true
+    failFast: false
+    autoCorrect: false
+  build:
+    maxIssues: 0
+style:
+  active: true
+  MagicNumber:
+    active: false
+  WildcardImport:
+    active: false
+  MaxLineLength:
+    active: true
+    maxLineLength: 140
+naming:
+  active: true
+performance:
+  active: true
+github:
+  active: false
+coroutines:
+  active: true
+complexity:
+  active: true
+  LongMethod:
+    active: true
+    threshold: 80
+  TooManyFunctions:
+    active: true
+    thresholdInFiles: 30
+    thresholdInClasses: 30
+    thresholdInInterfaces: 30
+    thresholdInObjects: 30
+    thresholdInEnums: 30
+    ignoreDeprecated: true
+    ignorePrivate: true
+formatting:
+  active: true
+  KtLint:
+    enabled: true
+  Indentation:
+    active: true
+    indentSize: 4
+    continuationIndentSize: 4
+  ParameterListWrapping:
+    active: true
+  MaximumLineLength:
+    active: true
+    maxLineLength: 140
+    ignoreBackTickedIdentifier: true
+  NoUnusedImports:
+    active: true
