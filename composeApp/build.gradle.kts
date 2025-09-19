@@ -108,12 +108,9 @@ kotlin {
         }
 
         androidMain.dependencies {
-            implementation(libs.bundles.mediation)
-
             implementation(libs.androidx.core.splashscreen)
             implementation(libs.play.review)
             implementation(libs.play.update)
-            implementation(libs.google.material)
             implementation(libs.koin.androidx.startup)
         }
     }

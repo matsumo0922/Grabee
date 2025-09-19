@@ -19,14 +19,12 @@ kotlin {
 
 dependencies {
     compileOnly(gradleKotlinDsl())
-    implementation(libs.android.r8)
     implementation(libs.android.gradlePlugin)
     implementation(libs.kotlin.gradlePlugin)
     implementation(libs.secret.gradlePlugin)
     implementation(libs.detekt.gradlePlugin)
     implementation(libs.build.konfig.gradlePlugin)
     implementation(libs.gms.services)
-    implementation(libs.gms.oss)
 }
 
 gradlePlugin {

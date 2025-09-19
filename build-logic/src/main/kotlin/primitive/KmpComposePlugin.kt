@@ -4,6 +4,7 @@ import me.matsumo.grabee.android
 import me.matsumo.grabee.androidTestImplementation
 import me.matsumo.grabee.debugImplementation
 import me.matsumo.grabee.implementation
+import me.matsumo.grabee.library
 import me.matsumo.grabee.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project

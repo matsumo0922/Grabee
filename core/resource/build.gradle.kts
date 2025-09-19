@@ -14,7 +14,7 @@ android {
 compose.resources {
     publicResClass = true
     packageOfResClass = "me.matsumo.grabee.core.resource"
-    generateResClass = org.jetbrains.compose.resources.GenerateResClass.always
+    generateResClass = always
 }
 
 kotlin {

@@ -37,13 +37,10 @@ kotlin {
             api(libs.adaptive)
             api(libs.adaptive.layout)
             api(libs.adaptive.navigation)
-
-            api(libs.rich.editor)
         }
 
         androidMain.dependencies {
             api(libs.bundles.ui.android)
-            implementation(libs.androidx.print)
             implementation(libs.play.service.ads)
         }
     }

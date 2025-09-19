@@ -23,7 +23,6 @@ kotlin {
             implementation(project(":core:billing"))
 
             implementation(libs.colorpicker)
-            implementation(libs.confetti)
         }
     }
 }
